@@ -2,16 +2,22 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+//A program that uses home maintenance costs for each
+// of the four seasons and returns the total yearly maintenance costs.
+//Again, be clear in the output by echoing the
+// values for the seasonal costs when you display the combined total.
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+        double doubleCostWinter = 1200.50;
+        double doubleCostSpring = 1300.75;
+        double doubleCostSummer = 1000.90;
+        double doubleCostFall = 1000.55;
+        double doubleYearly = doubleCostWinter + doubleCostSpring + doubleCostSummer + doubleCostFall;
+
+        System.out.println("Your yearly cost for maintenance is: " +doubleYearly);
+        System.out.println("Your cost for maintenance in Winter: " +doubleCostWinter);
+        System.out.println("Your cost for maintenance in Spring: " +doubleCostSpring);
+        System.out.println("Your cost for maintenance in Summer: " +doubleCostSummer);
+        System.out.println("Your cost for maintenance in Fall: " +doubleCostFall);
     }
 }
